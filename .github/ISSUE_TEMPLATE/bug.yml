@@ -38,14 +38,10 @@ body:
     validations:
       required: true
   - type: textarea
-    id: describe
-    attributes:
-      label: What''s wrong?
-      description: Please explain the issue and provide screenshots / video clips if possible.
-      render: shell
-  - type: textarea
     id: reproduce
     attributes:
       label: Steps to reproduce
       description: What are the steps to reproduce this bug?
       render: shell
+    validations:
+      required: true
